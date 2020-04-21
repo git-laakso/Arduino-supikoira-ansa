@@ -14,6 +14,13 @@ Idle tilasta päästään takaisin valvontatilaan(Tila A), painamalla nappia(Kyt
 
 # Kytkentä
 ![Simple-Alarm-Wiring-Mega_bb](https://user-images.githubusercontent.com/52996898/79853653-fe3bf580-83d0-11ea-8ad8-a59bfde9761d.png)
+# Arduino Uno R3
+**Seuraa ylläolevaa kytkentää, mutta muuta port pinnit:** <br>
+* LED -Dpin 6 <br>
+* Buzzer -Dpin 4 <br>
+* Ansa -Dpin 2 <br>
+* IDLE -Dpin 3 <br>
+* RESET -Dpin 7
 
 # FlowCode 8 näkymä
 ![flow](https://user-images.githubusercontent.com/52996898/79854002-730f2f80-83d1-11ea-8fa9-406e179db03f.PNG)
