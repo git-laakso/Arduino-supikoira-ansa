@@ -3,14 +3,14 @@ Arduino Mega 2560 &amp; Arduino Uno R3 suunnattu supikoira-ansa valvonnalla ja h
 
 # Tilat
 Ohjelma lukee kolmea tilaa: <br>
-A) Valvonta / LED vilkkuu tasaisesti ja äänen ulostuloa ei ole aktivoitu <br>
-B) Hälytys / LED palaa tasaisesti ja äänen ulostulo aktivoidaan <br>
-C) Idle / Sulkee LED:in, sekä äänen ulostulon <br>
+* A) Valvonta / LED vilkkuu tasaisesti ja äänen ulostuloa ei ole aktivoitu <br>
+* B) Hälytys / LED palaa tasaisesti ja äänen ulostulo aktivoidaan <br>
+* C) Idle / Sulkee LED:in, sekä äänen ulostulon <br>
 
 # Toiminta
-Luukkuun kytketään NC kytkin(Kytkentä A), jonka sulkeutuessa ohjelma siirtyy valvontatilasta hälytykseen(Tila B). <br>
-Hälytyksestä päästään Idle tilaan(Tila B), painamalla nappia(Kytkentä B). <br>
-Idle tilasta päästään takaisin valvontatilaan(Tila A), painamalla nappia(Kytkentä C).
+* Luukkuun kytketään NC kytkin(Kytkentä A), jonka sulkeutuessa ohjelma siirtyy valvontatilasta hälytykseen(Tila B). <br>
+* Hälytyksestä päästään Idle tilaan(Tila B), painamalla nappia(Kytkentä B). <br>
+* Idle tilasta päästään takaisin valvontatilaan(Tila A), painamalla nappia(Kytkentä C).
 
 # Kytkentä
 ![Simple-Alarm-Wiring-Mega_bb](https://user-images.githubusercontent.com/52996898/79853653-fe3bf580-83d0-11ea-8ad8-a59bfde9761d.png)
